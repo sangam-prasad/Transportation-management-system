@@ -26,8 +26,9 @@ int main()
     time_t t=time(NULL);
     char *str;
     str=ctime(&t);
+    int pass;
     cout<<str<<endl;
-    password();
+    if(!password())
     while(1)
         {
                 printf("\n\n\t\t************************************************************************\n");
@@ -424,7 +425,7 @@ void viewrecord( )
 void editrecord()
 
 {
-   
+
         system("cls");
         FILE *fpte ;
 
