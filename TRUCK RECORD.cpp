@@ -27,6 +27,7 @@ int main()
     char *str;
     str=ctime(&t);
     cout<<str<<endl;
+    password();
     while(1)
         {
                 printf("\n\n\t\t************************************************************************\n");
@@ -423,9 +424,8 @@ void viewrecord( )
 void editrecord()
 
 {
-
+   
         system("cls");
-
         FILE *fpte ;
 
         struct record customer ;
